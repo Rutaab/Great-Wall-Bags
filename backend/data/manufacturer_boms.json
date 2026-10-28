@@ -1,0 +1,15 @@
+[
+  { "id": "bom_01", "product_id": "Aero-Commute Pack", "material_name": "1680D Ballistic Nylon", "material_sku": "NYL-1680D", "quantity_per_unit": 0.85, "unit": "m", "unit_cost": 8.5, "supplier_name": "Lumina Textiles", "lead_time_days": 14 },
+  { "id": "bom_02", "product_id": "Aero-Commute Pack", "material_name": "YKK Waterproof Zipper", "material_sku": "ZIP-WP10", "quantity_per_unit": 2, "unit": "pcs", "unit_cost": 1.15, "supplier_name": "Harbor Imports LLC", "lead_time_days": 21 },
+  { "id": "bom_03", "product_id": "Aero-Commute Pack", "material_name": "Mesh Lining Fabric", "material_sku": "FBR-MSH21", "quantity_per_unit": 0.6, "unit": "m", "unit_cost": 3.2, "supplier_name": "Lumina Textiles", "lead_time_days": 14 },
+  { "id": "bom_04", "product_id": "Aero-Commute Pack", "material_name": "Aluminum Buckle Set", "material_sku": "BKL-ALU4", "quantity_per_unit": 4, "unit": "pcs", "unit_cost": 0.65, "supplier_name": "Summit Retail Group", "lead_time_days": 10 },
+  { "id": "bom_05", "product_id": "Urban Sling Bag", "material_name": "Eco Canvas 16oz", "material_sku": "CVS-ECO16", "quantity_per_unit": 0.4, "unit": "m", "unit_cost": 4.8, "supplier_name": "Nova Collections", "lead_time_days": 18 },
+  { "id": "bom_06", "product_id": "Urban Sling Bag", "material_name": "Nylon Webbing Strap", "material_sku": "STP-NYL38", "quantity_per_unit": 1.4, "unit": "m", "unit_cost": 0.42, "supplier_name": "Pacific Rim Trading", "lead_time_days": 12 },
+  { "id": "bom_07", "product_id": "Urban Sling Bag", "material_name": "Magnetic Snap Closure", "material_sku": "MAG-SNP8", "quantity_per_unit": 1, "unit": "pcs", "unit_cost": 0.35, "supplier_name": "Summit Retail Group", "lead_time_days": 10 },
+  { "id": "bom_08", "product_id": "Leather Tote", "material_name": "Full-Grain Leather", "material_sku": "LTH-FG12", "quantity_per_unit": 0.5, "unit": "m", "unit_cost": 38.0, "supplier_name": "Lumina Textiles", "lead_time_days": 30 },
+  { "id": "bom_09", "product_id": "Leather Tote", "material_name": "Cotton Twill Lining", "material_sku": "FBR-COT23", "quantity_per_unit": 0.55, "unit": "m", "unit_cost": 2.1, "supplier_name": "Lumina Textiles", "lead_time_days": 14 },
+  { "id": "bom_10", "product_id": "Travel Duffel", "material_name": "Ripstop Nylon 400D", "material_sku": "NYL-RPS400", "quantity_per_unit": 1.1, "unit": "m", "unit_cost": 3.9, "supplier_name": "Pacific Rim Trading", "lead_time_days": 12 },
+  { "id": "bom_11", "product_id": "Travel Duffel", "material_name": "Heavy-Duty Coil Zipper", "material_sku": "ZIP-HD8", "quantity_per_unit": 1, "unit": "pcs", "unit_cost": 2.4, "supplier_name": "Harbor Imports LLC", "lead_time_days": 21 },
+  { "id": "bom_12", "product_id": "Messenger Bag Pro", "material_name": "Ballistic Nylon 1000D", "material_sku": "NYL-BAL1000", "quantity_per_unit": 0.7, "unit": "m", "unit_cost": 6.4, "supplier_name": "Lumina Textiles", "lead_time_days": 14 },
+  { "id": "bom_13", "product_id": "Messenger Bag Pro", "material_name": "Laptop Sleeve Foam", "material_sku": "FOAM-15L", "quantity_per_unit": 1, "unit": "pcs", "unit_cost": 1.8, "supplier_name": "Summit Retail Group", "lead_time_days": 10 }
+]

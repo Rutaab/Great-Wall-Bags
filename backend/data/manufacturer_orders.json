@@ -1,0 +1,27 @@
+{
+  "kpis": [
+    { "label": "Active Orders", "value": "18", "icon": "orders", "color": "text-[#ff7936]", "bg": "bg-[#ff7936]/10" },
+    { "label": "Pending Approval", "value": "5", "icon": "hourglass_top", "color": "text-[#ff7936]", "bg": "bg-[#ff7936]/10" },
+    { "label": "Monthly Volume", "value": "42,800 units", "icon": "inventory_2", "color": "text-[#004be3]", "bg": "bg-[#004be3]/10" },
+    { "label": "Revenue This Month", "value": "$1.24M", "icon": "payments", "color": "text-green-600", "bg": "bg-green-100" }
+  ],
+  "orders": [
+    { "id": "WHO-3847", "partner": "Lumina Textiles", "items": "Aero Pack x500", "volume": "500", "total": "$84,500", "status": "Processing", "sColor": "bg-[#004be3]", "date": "Oct 28", "dateISO": "2024-10-28" },
+    { "id": "WHO-3846", "partner": "Pacific Rim Trading", "items": "Sling Bag x300", "volume": "300", "total": "$24,000", "status": "Shipped", "sColor": "bg-green-600", "date": "Oct 27", "dateISO": "2024-10-27" },
+    { "id": "WHO-3845", "partner": "Atlas Distribution", "items": "Leather Tote x150", "volume": "150", "total": "$52,500", "status": "Pending", "sColor": "bg-[#ff7936]", "date": "Oct 25", "dateISO": "2024-10-25" },
+    { "id": "WHO-3844", "partner": "Summit Retail Group", "items": "Travel Duffel x200", "volume": "200", "total": "$44,000", "status": "Approved", "sColor": "bg-[#004be3]", "date": "Oct 24", "dateISO": "2024-10-24" },
+    { "id": "WHO-3843", "partner": "Nova Collections", "items": "Mini Backpack x400", "volume": "400", "total": "$38,000", "status": "Pending", "sColor": "bg-[#ff7936]", "date": "Oct 23", "dateISO": "2024-10-23" },
+    { "id": "WHO-3842", "partner": "Harbor Imports LLC", "items": "Messenger Bag x250", "volume": "250", "total": "$32,500", "status": "Shipped", "sColor": "bg-green-600", "date": "Oct 22", "dateISO": "2024-10-22" },
+    { "id": "WHO-3841", "partner": "Nexus Global Goods", "items": "Rolling Luggage x180", "volume": "180", "total": "$61,200", "status": "Processing", "sColor": "bg-[#004be3]", "date": "Oct 21", "dateISO": "2024-10-21" },
+    { "id": "WHO-3840", "partner": "EuroLuxe Partners", "items": "Canvas Weekender x120", "volume": "120", "total": "$28,800", "status": "Shipped", "sColor": "bg-green-600", "date": "Oct 20", "dateISO": "2024-10-20" },
+    { "id": "WHO-3839", "partner": "Atlas Distribution", "items": "Laptop Case x350", "volume": "350", "total": "$30,300", "status": "Pending", "sColor": "bg-[#ff7936]", "date": "Oct 19", "dateISO": "2024-10-19" }
+  ],
+  "partners": [
+    { "name": "Lumina Textiles", "initials": "LT", "tier": "Premium Partner", "orders": 47, "value": "$2.8M" },
+    { "name": "Pacific Rim Trading", "initials": "PR", "tier": "Premium Partner", "orders": 32, "value": "$1.6M" },
+    { "name": "Atlas Distribution", "initials": "AD", "tier": "Premium Partner", "orders": 28, "value": "$1.1M" },
+    { "name": "Summit Retail Group", "initials": "SR", "tier": "Preferred Partner", "orders": 24, "value": "$980K" },
+    { "name": "Nova Collections", "initials": "NC", "tier": "Standard Partner", "orders": 16, "value": "$620K" },
+    { "name": "Harbor Imports LLC", "initials": "HI", "tier": "Standard Partner", "orders": 12, "value": "$410K" }
+  ]
+}

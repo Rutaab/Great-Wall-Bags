@@ -1,0 +1,45 @@
+{
+  "kpis": [
+    { "label": "Total Throughput", "value": "842,000", "sub": "units/month", "icon": "speed", "capacity": 78, "capacityLabel": "Capacity", "change": "+12.4%", "changeLabel": "vs last month" },
+    { "label": "Efficiency Rate", "value": "98.2%", "sub": "overall line efficiency", "icon": "bolt", "width": 98, "status": "On target" },
+    { "label": "QC Alerts", "value": "03", "sub": "Active alerts require review", "icon": "warning", "critical": "2 critical", "dark": true },
+    { "label": "Downtime", "value": "0.3%", "sub": "last 30 days average", "icon": "block", "improvement": "-2.1% improvement", "dark": true, "red": true }
+  ],
+  "lines": [
+    { "name": "Line 01-A", "badge": "Premium Assembly", "status": "Running at 94%", "speed": "1,240 units/hr", "loading": 94, "gradient": "from-[#ff7936] to-[#9e3c00]" },
+    { "name": "Line 02-B", "badge": "Quality Finish", "status": "Running at 87%", "speed": "980 units/hr", "loading": 87, "gradient": "from-[#004be3] to-[#4a8cff]" },
+    { "name": "Line 03-C", "badge": "Packaging", "status": "Running at 76%", "speed": "2,100 units/hr", "loading": 76, "gradient": "from-[#b9002c] to-[#ff4d6d]" },
+    { "name": "Line 04-D", "badge": "Stitching", "status": "Running at 91%", "speed": "1,150 units/hr", "loading": 91, "gradient": "from-green-500 to-emerald-600" },
+    { "name": "Line 05-E", "badge": "QC Inspection", "status": "Running at 82%", "speed": "640 units/hr", "loading": 82, "gradient": "from-[#ff7936] to-[#ffd4bb]" },
+    { "name": "Line 06-F", "badge": "Dye & Finish", "status": "Running at 68%", "speed": "720 units/hr", "loading": 68, "gradient": "from-[#4a8cff] to-[#004be3]" }
+  ],
+  "contracts": [
+    { "id": "KC-2024-8842", "entity": "Nexus Global Goods", "volume": "14,500 units", "deadline": "Dec 15, 2024", "value": "$847,200", "status": "SHIPPING", "color": "bg-[#004be3]" },
+    { "id": "KC-2024-8831", "entity": "Pacific Rim Traders", "volume": "8,200 units", "deadline": "Jan 08, 2025", "value": "$423,900", "status": "PENDING", "color": "bg-[#ff7936]" },
+    { "id": "KC-2024-8819", "entity": "Atlas Distribution Co.", "volume": "22,000 units", "deadline": "Nov 30, 2024", "value": "$1,240,000", "status": "DELAYED", "color": "bg-[#b9002c]" },
+    { "id": "KC-2024-8805", "entity": "EuroLuxe Partners", "volume": "5,600 units", "deadline": "Dec 22, 2024", "value": "$312,800", "status": "VERIFIED", "color": "bg-[#004be3]" },
+    { "id": "KC-2024-8798", "entity": "Summit Retail Group", "volume": "11,200 units", "deadline": "Jan 12, 2025", "value": "$624,500", "status": "PENDING", "color": "bg-[#ff7936]" },
+    { "id": "KC-2024-8790", "entity": "Nova Collections", "volume": "3,400 units", "deadline": "Dec 05, 2024", "value": "$189,200", "status": "VERIFIED", "color": "bg-[#004be3]" }
+  ],
+  "shipments": {
+    "active": 12,
+    "subtitle": "Global network live",
+    "activity": [
+      { "title": "Delivered", "desc": "KC-2024-8805 → Nexus Global", "time": "2h ago", "color": "bg-green-500", "dot": "check_circle" },
+      { "title": "In Transit", "desc": "KC-2024-8842 → Pacific Rim", "time": "5h ago", "color": "bg-[#004be3]", "dot": "local_shipping" },
+      { "title": "Pending", "desc": "KC-2024-8831 → Atlas Dist.", "time": "12h ago", "color": "bg-[#ff7936]", "dot": "schedule" },
+      { "title": "Loading", "desc": "KC-2024-8819 → EuroLuxe", "time": "1d ago", "color": "bg-[#b9002c]", "dot": "inventory_2" },
+      { "title": "Customs Hold", "desc": "KC-2024-8798 → Nova", "time": "1d ago", "color": "bg-[#ff7936]", "dot": "warning" },
+      { "title": "In Transit", "desc": "KC-2024-8790 → Summit", "time": "2d ago", "color": "bg-[#004be3]", "dot": "local_shipping" }
+    ]
+  },
+  "landing": {
+    "heroTitle": "Design Factory",
+    "heroSubtitle": "End-to-end manufacturing control platform for modern bag production",
+    "stats": [
+      { "icon": "store", "label": "Plants Online", "value": "12", "sub": "across 4 continents" },
+      { "icon": "precision_manufacturing", "label": "Active Production Lines", "value": "47", "sub": "24/7 operation" },
+      { "icon": "inventory_2", "label": "Monthly Output", "value": "842K", "sub": "units manufactured" }
+    ]
+  }
+}

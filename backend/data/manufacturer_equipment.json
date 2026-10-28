@@ -1,0 +1,115 @@
+[
+  {
+    "id": "EQ-001",
+    "name": "CNC Panel Saw",
+    "model": "CNC-830",
+    "location": "Line A3",
+    "status": "operational",
+    "health_score": 92,
+    "runtime_hours": 12480,
+    "last_maintenance": "2024-09-15",
+    "next_maintenance": "2024-12-15",
+    "maintenance_logs": [
+      { "id": "log_1", "date": "2024-09-15", "type": "Preventive", "technician": "R. Alvarado", "summary": "Blade replaced, calibration verified", "cost": 480 },
+      { "id": "log_2", "date": "2024-06-18", "type": "Preventive", "technician": "R. Alvarado", "summary": "Lubrication and belt tension adjustment", "cost": 220 }
+    ]
+  },
+  {
+    "id": "EQ-002",
+    "name": "High-Speed Stitching Machine",
+    "model": "JUKI-9140",
+    "location": "Line B1",
+    "status": "operational",
+    "health_score": 84,
+    "runtime_hours": 9860,
+    "last_maintenance": "2024-10-02",
+    "next_maintenance": "2025-01-02",
+    "maintenance_logs": [
+      { "id": "log_3", "date": "2024-10-02", "type": "Corrective", "technician": "M. Nguyen", "summary": "Thread tensioner rebuilt, motor brushes replaced", "cost": 310 }
+    ]
+  },
+  {
+    "id": "EQ-003",
+    "name": "Zipper Track Press",
+    "model": "ZP-210",
+    "location": "Line B2",
+    "status": "maintenance",
+    "health_score": 41,
+    "runtime_hours": 15220,
+    "last_maintenance": "2024-09-28",
+    "next_maintenance": "2024-10-30",
+    "maintenance_logs": [
+      { "id": "log_4", "date": "2024-09-28", "type": "Preventive", "technician": "L. Trent", "summary": "Die set realigned; intermittent snagging reported", "cost": 560 }
+    ]
+  },
+  {
+    "id": "EQ-004",
+    "name": "Dye Vat System",
+    "model": "DVX-6000",
+    "location": "Line F1",
+    "status": "idle",
+    "health_score": 67,
+    "runtime_hours": 7430,
+    "last_maintenance": "2024-08-30",
+    "next_maintenance": "2024-11-30",
+    "maintenance_logs": [
+      { "id": "log_5", "date": "2024-08-30", "type": "Preventive", "technician": "K. Osei", "summary": "Heating element inspected, temp sensors recalibrated", "cost": 690 }
+    ]
+  },
+  {
+    "id": "EQ-005",
+    "name": "Laser Cutter",
+    "model": "LC-1200W",
+    "location": "Line A1",
+    "status": "error",
+    "health_score": 22,
+    "runtime_hours": 18940,
+    "last_maintenance": "2024-07-12",
+    "next_maintenance": "2024-10-12",
+    "maintenance_logs": [
+      { "id": "log_6", "date": "2024-07-12", "type": "Corrective", "technician": "R. Alvarado", "summary": "Lens replaced, coolant flushed; focus error code E-42 recurring", "cost": 940 }
+    ]
+  },
+  {
+    "id": "EQ-006",
+    "name": "Industrial Sewing Conveyor",
+    "model": "CONV-450",
+    "location": "Line D2",
+    "status": "operational",
+    "health_score": 78,
+    "runtime_hours": 6010,
+    "last_maintenance": "2024-10-08",
+    "next_maintenance": "2024-12-08",
+    "maintenance_logs": [
+      { "id": "log_7", "date": "2024-10-08", "type": "Preventive", "technician": "M. Nguyen", "summary": "Belt tracking adjusted, rollers lubricated", "cost": 180 }
+    ]
+  },
+  {
+    "id": "EQ-007",
+    "name": "Vacuum Former",
+    "model": "VF-900",
+    "location": "Line C2",
+    "status": "operational",
+    "health_score": 88,
+    "runtime_hours": 4320,
+    "last_maintenance": "2024-09-05",
+    "next_maintenance": "2024-12-05",
+    "maintenance_logs": [
+      { "id": "log_8", "date": "2024-09-05", "type": "Preventive", "technician": "L. Trent", "summary": "Vacuum seals replaced, temperature probe verified", "cost": 350 }
+    ]
+  },
+  {
+    "id": "EQ-008",
+    "name": "Label Print & Apply Unit",
+    "model": "LPA-330",
+    "location": "Line B2",
+    "status": "operational",
+    "health_score": 95,
+    "runtime_hours": 2110,
+    "last_maintenance": "2024-10-10",
+    "next_maintenance": "2025-01-10",
+    "maintenance_logs": [
+      { "id": "log_9", "date": "2024-10-10", "type": "Preventive", "technician": "K. Osei", "summary": "Printhead cleaned, label feed calibrated", "cost": 120 }
+    ]
+  }
+]

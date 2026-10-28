@@ -1,0 +1,39 @@
+# ── Dependencies ────────────────────────────────────────────────
+node_modules/
+
+# ── Build output (regenerate with: npm run build) ───────────────
+dist/
+
+# ── Secrets - never commit ──────────────────────────────────────
+backend/.env
+.env
+.env.local
+
+# ── Live user data. Kept local only: these hold real customer
+#    emails, password hashes, orders and private messages. ───────
+backend/data/users.json
+backend/data/orders.json
+backend/data/messages.json
+backend/data/reviews.json
+backend/data/requests.json
+backend/data/reset_tokens.json
+backend/data/email_verification_store.json
+backend/data/supplier_warehouses.json
+
+# ── Design prototypes (~48 MB of PNGs, kept local) ──────────────
+Prototype/
+
+# ── Local dev certificates / binaries ───────────────────────────
+certs/
+
+# ── Logs and scratch output ─────────────────────────────────────
+*.log
+backend_err.txt
+backend_out.txt
+
+# ── OS / editor noise ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp

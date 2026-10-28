@@ -1,0 +1,30 @@
+{
+  "kpis": [
+    { "label": "Pass Rate", "value": "98.4%", "icon": "verified", "color": "text-green-600", "bg": "bg-green-100" },
+    { "label": "Inspections Today", "value": "12", "icon": "fact_check", "color": "text-[#004be3]", "bg": "bg-[#004be3]/10" },
+    { "label": "Critical Issues", "value": "2", "icon": "warning", "color": "text-[#b9002c]", "bg": "bg-[#b9002c]/10" },
+    { "label": "Avg Resolution Time", "value": "3.2hrs", "icon": "timer", "color": "text-[#ff7936]", "bg": "bg-[#ff7936]/10" }
+  ],
+  "records": [
+    { "id": "QC-1024", "batch": "PB-2024-01", "inspector": "Elena Rodriguez", "type": "Final", "date": "Oct 28", "result": "Passed", "resultIcon": "check_circle", "rColor": "text-green-600", "status": "Approved", "sColor": "bg-green-600" },
+    { "id": "QC-1023", "batch": "PB-2024-02", "inspector": "Marcus Chen", "type": "Mid-Line", "date": "Oct 27", "result": "Flagged", "resultIcon": "warning", "rColor": "text-[#b9002c]", "status": "Investigation", "sColor": "bg-[#b9002c]" },
+    { "id": "QC-1022", "batch": "PB-2024-01", "inspector": "Sarah Kim", "type": "Material", "date": "Oct 26", "result": "Passed", "resultIcon": "check_circle", "rColor": "text-green-600", "status": "Approved", "sColor": "bg-green-600" },
+    { "id": "QC-1021", "batch": "PB-2024-03", "inspector": "James Okafor", "type": "Final", "date": "Oct 25", "result": "Pending Review", "resultIcon": "hourglass_top", "rColor": "text-[#ff7936]", "status": "Review", "sColor": "bg-[#ff7936]" },
+    { "id": "QC-1020", "batch": "PB-2024-04", "inspector": "Elena Rodriguez", "type": "Pre-Prod", "date": "Oct 24", "result": "Passed", "resultIcon": "check_circle", "rColor": "text-green-600", "status": "Approved", "sColor": "bg-green-600" },
+    { "id": "QC-1019", "batch": "PB-2024-02", "inspector": "Liam Tan", "type": "Final", "date": "Oct 23", "result": "Flagged", "resultIcon": "warning", "rColor": "text-[#b9002c]", "status": "Escalated", "sColor": "bg-[#b9002c]" },
+    { "id": "QC-1018", "batch": "PB-2024-05", "inspector": "Sarah Kim", "type": "Mid-Line", "date": "Oct 22", "result": "Passed", "resultIcon": "check_circle", "rColor": "text-green-600", "status": "Approved", "sColor": "bg-green-600" },
+    { "id": "QC-1017", "batch": "PB-2024-06", "inspector": "Marcus Chen", "type": "Material", "date": "Oct 21", "result": "Passed", "resultIcon": "check_circle", "rColor": "text-green-600", "status": "Approved", "sColor": "bg-green-600" }
+  ],
+  "issues": [
+    { "issue": "Stitching tensile failure on Aero Pack Line A3", "severity": "Critical", "sColor": "text-[#b9002c]", "sBg": "bg-[#b9002c]/10", "time": "2h ago" },
+    { "issue": "Color mismatch on Urban Sling dye lot #442", "severity": "Major", "sColor": "text-[#ff7936]", "sBg": "bg-[#ff7936]/10", "time": "5h ago" },
+    { "issue": "Label alignment off by 2mm on Leather Tote run", "severity": "Minor", "sColor": "text-[#004be3]", "sBg": "bg-[#004be3]/10", "time": "1d ago" },
+    { "issue": "Zipper track snagging on Mini Backpack line B2", "severity": "Major", "sColor": "text-[#ff7936]", "sBg": "bg-[#ff7936]/10", "time": "1d ago" }
+  ],
+  "certs": [
+    { "name": "ISO 9001:2015", "status": "Active", "sColor": "bg-green-100 text-green-700", "iconColor": "text-green-600", "expiry": "Dec 2025", "icon": "verified" },
+    { "name": "REACH Certified", "status": "Verified", "sColor": "bg-green-100 text-green-700", "iconColor": "text-green-600", "expiry": "Mar 2026", "icon": "badge" },
+    { "name": "OEKO-TEX Standard 100", "status": "Pending Renewal", "sColor": "bg-[#ff7936]/10 text-[#ff7936]", "iconColor": "text-[#ff7936]", "expiry": "Nov 2024", "icon": "assignment" },
+    { "name": "BSCI Social Audit", "status": "Active", "sColor": "bg-green-100 text-green-700", "iconColor": "text-green-600", "expiry": "Jun 2026", "icon": "verified_user" }
+  ]
+}

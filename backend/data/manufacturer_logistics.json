@@ -1,0 +1,25 @@
+{
+  "activeRoutes": 1402,
+  "change": "+12.4%",
+  "changeLabel": "vs last week",
+  "carriers": 3,
+  "customsAlerts": 2,
+  "customs": [
+    { "icon": "gavel", "title": "Shanghai — HS Code Mismatch", "desc": "Incorrect classification in Line 3", "action": "Action Required", "actionColor": "text-[#b9002c]", "iconColor": "text-[#b9002c]" },
+    { "icon": "description", "title": "Rotterdam — Awaiting Clearance", "desc": "Documentation under review", "action": "In Progress", "actionColor": "text-[#ff7936]", "iconColor": "text-[#ff7936]" }
+  ],
+  "lanes": [
+    { "label": "Pacific Westbound", "value": "98.2%", "width": "98%", "color": "bg-[#ff7936]", "bg": "bg-[#ffede4]" },
+    { "label": "Trans-Atlantic", "value": "92.5%", "width": "92%", "color": "bg-[#004be3]", "bg": "bg-[#e8efff]" },
+    { "label": "South-East Asia", "value": "84.1%", "width": "84%", "color": "bg-[#b9002c]", "bg": "bg-[#ffe8eb]" }
+  ],
+  "onTime": "96.3%",
+  "telemetry": [
+    { "id": "TRK-8842-A", "origin": "Shanghai, CN", "dest": "Los Angeles, US", "status": "In Transit", "statusColor": "bg-[#004be3]", "eta": "Dec 18, 2024" },
+    { "id": "TRK-8831-B", "origin": "Mumbai, IN", "dest": "Rotterdam, NL", "status": "Customs Hold", "statusColor": "bg-[#ff7936]", "eta": "Dec 22, 2024" },
+    { "id": "TRK-8819-C", "origin": "Ho Chi Minh, VN", "dest": "Melbourne, AU", "status": "Delayed", "statusColor": "bg-[#b9002c]", "eta": "Dec 28, 2024" },
+    { "id": "TRK-8812-D", "origin": "Shenzhen, CN", "dest": "Hamburg, DE", "status": "In Transit", "statusColor": "bg-[#004be3]", "eta": "Dec 20, 2024" },
+    { "id": "TRK-8806-E", "origin": "Bangkok, TH", "dest": "Sydney, AU", "status": "Customs Hold", "statusColor": "bg-[#ff7936]", "eta": "Dec 25, 2024" },
+    { "id": "TRK-8794-F", "origin": "Shanghai, CN", "dest": "New York, US", "status": "In Transit", "statusColor": "bg-[#004be3]", "eta": "Dec 16, 2024" }
+  ]
+}
